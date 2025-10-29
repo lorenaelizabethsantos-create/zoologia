@@ -1,19 +1,19 @@
 body {
     color:rgb(0, 0, 0);
-    background:rgb(153, 199, 155);
+    background:rgb(186, 159, 235);
     margin: 5px;
     font-family: "Delius", sans-serif;
 }
 header{
-    border-bottom: solid 5px rgb(72, 255, 0);
+    border-bottom: solid 5px rgb(160, 121, 197);
     padding: 10px;
     font-size: 32px;
-    color: rgb(25, 6, 194);
+    color: rgb(104, 70, 143);
 }
 
 
 section{
-    background: rgb(222, 245, 139);
+    background: rgb(243, 241, 239);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
