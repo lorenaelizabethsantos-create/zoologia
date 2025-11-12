@@ -1,19 +1,19 @@
 body {
     color:rgb(0, 0, 0);
-    background:rgb(186, 159, 235);
+    background:rgb(165, 240, 188);
     margin: 5px;
     font-family: "Delius", sans-serif;
 }
 header{
-    border-bottom: solid 5px rgb(160, 121, 197);
+    border-bottom: solid 5px rgb(93, 223, 114);
     padding: 10px;
     font-size: 32px;
-    color: rgb(104, 70, 143);
+    color: rgb(45, 110, 72);
 }
 
 
-section{
-    background: rgb(243, 241, 239);
+.chamada {
+    background: rgb(94, 226, 145);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -28,4 +28,17 @@ h1{
 }
 p{
     font-size: 20px;
+}
+
+img{
+    height: 20px;
+}
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+padding-left: 20px;
+padding-right: 20px;
 }
