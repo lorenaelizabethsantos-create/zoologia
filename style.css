@@ -3,6 +3,7 @@ body {
     background:rgb(151, 150, 226);
     margin: 5px;
     font-family: "Delius", sans-serif;
+    margin-bottom: 100px;
 }
 header{
     border-bottom: solid 5px rgba(76, 60, 219, 0.795);
@@ -30,15 +31,26 @@ p{
     font-size: 20px;
 }
 
-img{
-    height: 200px;
-}
+
 .categoria-vídeos{
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
 .categoria{
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
 }
+
+.categoria-vídeos img{
+ opacity: 0,5;
+  height:200px;
+}
+.categoria-vídeos img:hover{
+    opacity: 1,0;
+    border: 1px solid rgb(151, 150, 226);
+}
+ .categoria h2{
+    color: rgb(151, 150, 226);
+ }
