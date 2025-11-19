@@ -1,19 +1,19 @@
 body {
     color:rgb(0, 0, 0);
-    background:rgb(165, 240, 188);
+    background:rgb(151, 150, 226);
     margin: 5px;
     font-family: "Delius", sans-serif;
 }
 header{
-    border-bottom: solid 5px rgb(93, 223, 114);
+    border-bottom: solid 5px rgba(76, 60, 219, 0.795);
     padding: 10px;
     font-size: 32px;
-    color: rgb(45, 110, 72);
+    color: rgba(85, 29, 216, 0.603);
 }
 
 
 .chamada {
-    background: rgb(94, 226, 145);
+    background: rgba(123, 36, 204, 0.849);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
