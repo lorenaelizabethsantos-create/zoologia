@@ -1,56 +1,62 @@
 body {
-    color:rgb(0, 0, 0);
-    background:rgb(151, 150, 226);
+    color: rgb(0, 0, 0);
+    background: rgb(151, 150, 226);
     margin: 5px;
     font-family: "Delius", sans-serif;
     margin-bottom: 100px;
 }
-header{
-    border-bottom: solid 5px rgba(76, 60, 219, 0.795);
+
+header {
+    border-bottom: solid 5px black;
     padding: 10px;
     font-size: 32px;
-    color: rgba(85, 29, 216, 0.603);
+    color: yellow;
 }
 
 
 .chamada {
-    background: rgba(123, 36, 204, 0.849);
+    background: red;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-}  
-.chamada-texto{
+}
+
+.chamada-texto {
     margin-right: 5%;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 20px;
 }
 
 
-.categoria-vídeos{
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.categoria{
-padding-left: 20px;
-padding-right: 20px;
-margin-top: 50px;
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-.categoria-vídeos img{
- opacity: 0,5;
-  height:200px;
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
 }
-.categoria-vídeos img:hover{
-    opacity: 1,0;
+
+.categoria-videos img:hover {
+    opacity: 1.0;
     border: 1px solid rgb(151, 150, 226);
 }
- .categoria h2{
+
+.categoria h2 {
     color: rgb(151, 150, 226);
- }
+}
